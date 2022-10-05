@@ -2,10 +2,15 @@
 ## Executive Summary
 I used data about Cyclistic's (a fictitious bike-share company, based on Divvy Chicago) rides and stations to understand differences in bike usage between casual users and annual members.
 
+* Excel file [here](https://drive.google.com/file/d/14y2f-Jsz1NeM4WtcE7EzPShGAFRpHYeF/view?usp=sharing).
+* Power BI file [here](https://drive.google.com/file/d/1F-VfvTpqTKDoa_HCL8mPjBSedQcoFZBe/view?usp=sharing).
+
 ## Structure
 The case study is part of [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics). I therefore used Google’s approach to data analysis, composed of six phases: ask, prepare, process, analyse, share, and act.
 
-To learn about and compare different tools, I performed the analysis three times, each with different tools: (1) SQL → Google Spreadsheets → Tableau, (2) Excel → Power BI, (3) Python → MicroStrategy. This document details the second track, **Excel → Power BI**.
+To learn about and compare different tools, I performed the analysis three times, each with different tools: (1) SQL → Google Spreadsheets → Tableau, (2) Excel → Power BI, (3) Python → MicroStrategy.
+
+This document details the second track, **Excel → Power BI**.
 
 ![Figure 1: Case study methodology.](/images/methodology.webP)
 
@@ -79,6 +84,8 @@ To learn about and compare different tools, I performed the analysis three times
 | Cited | Data was cited by Google in its flagship data analysis certification programme. Additionally, Divvy is a salient bike-sharing programme. |
 
 ### Stage 3 (Process)
+Access the Excel file for thsi and the next stage [here](https://drive.google.com/file/d/14y2f-Jsz1NeM4WtcE7EzPShGAFRpHYeF/view?usp=sharing).
+
 **Trips data.** The first step was to load all trips data via Power Query, which was also an opportunity use M to:
 * check for and remove rows with empty values in columns other than station names/ids;
 * remove duplicates ride ids;
@@ -278,6 +285,8 @@ The common patter that emerges is that the programme is characterised by busines
 *Figure 6. Number of rides and usage ratio of the most popular stations.*
 
 ### Stage 5 (Share)
+Access the Power BI file for this stage [here](https://drive.google.com/file/d/1F-VfvTpqTKDoa_HCL8mPjBSedQcoFZBe/view?usp=sharing).
+
 **PowerBI.** I was now in a position to use visualisation to further what I found in a way that also allows communicating the message easily. The geographical nature of the analysis implied the need for some maps. Excel is not great with maps. It was time for Power BI.
 
 The first step was to import the data model into Power BI: File > Import > Power Query, Power Pivot.
@@ -315,7 +324,7 @@ check_duplicate_coords =
 
 ```
 
-Below are some screenshots of the Power BI visualistion. However, you can download [this file](cyclisticViz.pbix) and open it in Power BI to see and use the interactive dashboards.
+Below are some screenshots of the Power BI visualistion. However, you can download [this file](https://drive.google.com/file/d/1F-VfvTpqTKDoa_HCL8mPjBSedQcoFZBe/view?usp=sharing) and open it in Power BI to see and use the interactive dashboards.
 
 ![Figure 7: Snapshot of Power BI's dashboard.](images/powerDashP1.webP)
 
