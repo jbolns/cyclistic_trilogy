@@ -1,7 +1,7 @@
 # BUILD FILES
 /buildFiles
-/trackA
-/trackB
-#/trackB/cyclisticViz.pbix
-#/trackB/cyclisticAnalysis.xlsx
+/trackA/data
+/trackB/data
+/trackB/cyclisticViz.pbix
+/trackB/cyclisticAnalysis.xlsx
 README_main.md
