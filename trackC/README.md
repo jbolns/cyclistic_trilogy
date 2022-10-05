@@ -1,3 +1,3 @@
-# Cyclistic Trilogy, Track A (SQL → Google Spreadsheets → Tableau)
+# Cyclistic Trilogy, Track C
 ## Executive Summary
-Nothing here just yet. 
+Nothing here just yet.
