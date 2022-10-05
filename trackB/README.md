@@ -2,8 +2,8 @@
 ## Executive Summary
 I used data about Cyclistic's (a fictitious bike-share company, based on Divvy Chicago) rides and stations to understand differences in bike usage between casual users and annual members.
 
-* Excel file [here](https://drive.google.com/file/d/14y2f-Jsz1NeM4WtcE7EzPShGAFRpHYeF/view?usp=sharing).
-* Power BI file [here](https://drive.google.com/file/d/1F-VfvTpqTKDoa_HCL8mPjBSedQcoFZBe/view?usp=sharing).
+* Excel file [here](https://drive.google.com/file/d/14y2f-Jsz1NeM4WtcE7EzPShGAFRpHYeF/view?usp=sharing){:target="_blank"}.
+* Power BI file [here](https://drive.google.com/file/d/1F-VfvTpqTKDoa_HCL8mPjBSedQcoFZBe/view?usp=sharing){:target="_blank"}.
 
 ## Structure
 The case study is part of [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics). I therefore used Google’s approach to data analysis, composed of six phases: ask, prepare, process, analyse, share, and act.
