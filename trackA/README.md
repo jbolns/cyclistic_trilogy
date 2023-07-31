@@ -1,11 +1,21 @@
 # Cyclistic Trilogy, Track A (SQL → Google Spreadsheets → Tableau)
 ## Executive Summary
-I used data about Cyclistic's (a fictitious bike-share company, based on Divvy Chicago) rides and stations to understand differences in bike usage between casual users and annual members, which is needed to design a marketing campaign aimed at converting casual riders into annual members.
+I used data about Cyclistic's (a fictitious bike-share company, based on Divvy Chicago) rides and stations to understand differences in bike usage between casual users and annual members.
+
+> The Google Spreadsheets for this analysis is available [here](https://docs.google.com/spreadsheets/d/1BhedMuJj7vVwe4kJSceKjMn0TLuPsCzu5PJrO4FiPyk/edit?usp=sharing).
+
+> The Tableau dashboard for this analysis is available [here](https://public.tableau.com/app/profile/jbolns/viz/CyclisticCaseStudy_16583129939090/Stationsusage).
+
+**!** The analysis is part of a larger exercise using different tools and approaches to the same data.
+
+> Check [track B](../trackB/README.md) and [track C](../trackC/README.md) for other approaches to this dataset.
 
 ## Structure
-The case study is part of [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics). I therefore used Google’s approach to data analysis, composed of six phases: ask, prepare, process, analyse, share, and act.
+Analysis follows Google’s approach to data analysis, composed of six phases: ask, prepare, process, analyse, share, and act.
 
-To learn about and compare different tools, I performed the analysis three times, each with different tools: (1) SQL → Google Spreadsheets → Tableau, (2) Excel → Power BI, (3) Python → MicroStrategy. This document details the first track, **SQL → Google Spreadsheets → Tableau.**
+To learn about and compare different tools, I performed the analysis three times, each with different tools: (1) SQL → Google Spreadsheets → Tableau, (2) Excel → Power BI, (3) Python → MicroStrategy. 
+
+This document details the first track, **SQL → Google Spreadsheets → Tableau.**
 
 ![Figure 1: Case study methodology.](images/methodology.webP)
 
@@ -187,8 +197,6 @@ At this point, I was able to unify data from trips and stations tables into a si
 ### Stage 4 (Analyse)
 In line with the discoveries above, I focused analysis on the two aspects of bike-sharing that the data gives meaningful insight into: timing and location of rides/stations.
 
-Below a summary of my approach to the spreadsheet document. The document can be found [here](https://docs.google.com/spreadsheets/d/1BhedMuJj7vVwe4kJSceKjMn0TLuPsCzu5PJrO4FiPyk/edit?usp=sharing).
-
 **Timing.** Analysis of timing aspects of data was possible via pivot tables, which allowed me to rapidly create the following tables.
 *	rides by month of the year and member type,
 *	rides by day of the week and member type,
@@ -247,4 +255,4 @@ Based on this finding and the analysis, three recommendations are possible:
   * Example (Visitors). No need to figure out things while trying not to get lost in a new city.
 *	Be playful. Strike a jovial tone in all marketing. Casual users already know the programme. The challenge is not communicating the existence of annual memberships but, rather, selling an experience.
 
-Do note, however, that for reasons explained earlied and due to the exploratory nature of this analysis, the analysis did not cover trips that show in the original data as having no station name. If these null values resulted from sensor failures, the findings here are likely directly applicable to these observations. If these null values reflect an aspect of Cyclistic activities that makes these rides fundamentally different to those with stations name, a separate analysis is needed to determine if the findings here extend to rides showing no station names. This is a limitation, no doubt, but this was an exploratory analysis and the bulk of the data is made by entries with station names. Ergo, the analysis here covers the majority of Cyclistic activities.
+Do note, however, that for reasons explained earlied and due to the exploratory nature of this analysis, the analysis did not cover trips that show in the original data as having no station name. This is a limitation, no doubt, but this was an exploratory analysis and can therefore not be expected to be comprehensive. A more comprehensive follow up is, of course, advisable.

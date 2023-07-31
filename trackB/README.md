@@ -2,11 +2,16 @@
 ## Executive Summary
 I used data about Cyclistic's (a fictitious bike-share company, based on Divvy Chicago) rides and stations to understand differences in bike usage between casual users and annual members.
 
-* Excel file [here](https://drive.google.com/file/d/14y2f-Jsz1NeM4WtcE7EzPShGAFRpHYeF/view?usp=sharing).
-* Power BI file [here](https://drive.google.com/file/d/1F-VfvTpqTKDoa_HCL8mPjBSedQcoFZBe/view?usp=sharing).
+> The Excel file for this analysis is available [here](https://drive.google.com/file/d/14y2f-Jsz1NeM4WtcE7EzPShGAFRpHYeF/view?usp=sharing).
+
+> The Power BI file for this analysis is available [here](https://drive.google.com/file/d/1F-VfvTpqTKDoa_HCL8mPjBSedQcoFZBe/view?usp=sharing).
+
+**!** The analysis is part of a larger exercise using different tools and approaches to the same data.
+
+> Check [track A](../trackA/README.md) and [track C](../trackC/README.md) for other approaches to this dataset.
 
 ## Structure
-The case study is part of [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics). I therefore used Google’s approach to data analysis, composed of six phases: ask, prepare, process, analyse, share, and act.
+Analysis follows Google’s approach to data analysis, composed of six phases: ask, prepare, process, analyse, share, and act.
 
 To learn about and compare different tools, I performed the analysis three times, each with different tools: (1) SQL → Google Spreadsheets → Tableau, (2) Excel → Power BI, (3) Python → MicroStrategy.
 
@@ -84,7 +89,7 @@ This document details the second track, **Excel → Power BI**.
 | Cited | Data was cited by Google in its flagship data analysis certification programme. Additionally, Divvy is a salient bike-sharing programme. |
 
 ### Stage 3 (Process)
-Access the Excel file for thsi and the next stage [here](https://drive.google.com/file/d/14y2f-Jsz1NeM4WtcE7EzPShGAFRpHYeF/view?usp=sharing).
+Access the Excel file for this and the next stage [here](https://drive.google.com/file/d/14y2f-Jsz1NeM4WtcE7EzPShGAFRpHYeF/view?usp=sharing).
 
 **Trips data.** The first step was to load all trips data via Power Query, which was also an opportunity use M to:
 * check for and remove rows with empty values in columns other than station names/ids;
