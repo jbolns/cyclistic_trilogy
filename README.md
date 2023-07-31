@@ -1,9 +1,9 @@
-# Cyclistic Trilogy
+# The Cyclistic Trilogy
 
 ## Executive Summary
 To learn and compare different data analysis tools, I analysed a dataset three times, each time with different set of tools and, accordingly, a slightly different approach:
 1. **[SQL → Google Spreadsheets → Tableau.](./trackA)** Exploratory data analysis of a sample of observations.
-2. **[Excel → Power BI.](./trackB)** In-depth analysis prioritising cleaning and thoroughness.
+2. **[Excel → Power BI.](./trackB)** In-depth analysis prioritising data cleaning and thoroughness.
 3. **[Python → MicroStrategy.](./trackC)** Semi-automated analysis using statistical regression, with full dataset transfer into MicroStrategy. 
 
 ## Structure
@@ -31,7 +31,7 @@ I learned a lot about the different tools I used.
 * **Power BI is the sure thing.** What can I say. It felt like driving a Toyota. The thing will take you where you need to go. Filters felt very easy to use, too. 
 * **MicroStrategy is powerful!.** MicroStrategy is perhaps not the best choice for analysts working on many different and relatively-small ad-hoc topics. The learning curve is significant. That said, the thing flew through the full dataset like it was eating candy! I don't think I even have a dataset as big as one would need to really give MicroStrategy a run for its money.
 
-It was also nice to see findings across tracks converge despite having taken slightly different approaches across tracks. The alignment between findings across tracks demonstrates there is no one single best approach to data analysis. 
+It was also nice to see findings across tracks converge despite having taken slightly different approaches in each track. It is a nice way to remind myself that there is no single best approach to data analysis.
 
 ## Conclusions
 Tools are just tools. Making the most from them is enjoyable. It may also be the appropriate thing to do, but I'll leave that for others to decide.
