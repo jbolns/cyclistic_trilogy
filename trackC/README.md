@@ -5,7 +5,7 @@ I used data about Cyclistic's (a fictitious bike-share company, based on Divvy C
 
 > The Jupyter (ipynb) file for this analysis is available [here](trackC.ipynb).
 
-> The MicroStrategy (mstr) file for this analysis is available [here](cyclistic.mstr).
+> The MicroStrategy (mstr) file for this analysis is available [here](https://drive.google.com/file/d/10lsjnfxAJobxUIOVdrtR-bRuRpzt8QdO/view?usp=sharing).
 
 **!** The analysis is part of a larger exercise using different tools and approaches to the same data and is therefore not necessarily what I would do if working only with Python.
 
